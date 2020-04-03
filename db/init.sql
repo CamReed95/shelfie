@@ -1,4 +1,4 @@
-CREATE TABLE random (
+CREATE TABLE products (
     name VARCHAR(30)
 );
 
