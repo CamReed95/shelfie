@@ -12,11 +12,11 @@ class App extends React.Component {
   render() {
     return (
       <div className="App">
-        <div className='Dashboard'>
-          <div className='Product'></div>
+        <div className='Dashboard'>Dashboard
+          <div className='Product'>Product</div>
         </div>
-        <div className='Form'></div>
-        <div className='Header'></div>
+        <div className='Form'>Form</div>
+        <div className='Header'>Header</div>
         
       </div>
     );
