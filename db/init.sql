@@ -1,5 +1,7 @@
 CREATE TABLE products (
-    name VARCHAR(30)
+    columnname TEXT,
+    datatype TEXT,
+    constraints TEXT
 );
 
 INSERT INTO random (name)
