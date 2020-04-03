@@ -1,5 +1,7 @@
 const express = require('express');
-const controller = require('controller');
+const controller = require('./controller');
+const massive = require('massive');
+require('dotenv').config();
 
 const app = express()
 
@@ -11,4 +13,4 @@ app.use(express.json())
 
 const port = 3001
 
-app.listening(port, () => console.log(`listening on port ${port}`))
+app.listen(port, () => console.log(`listening on port ${port}`))
