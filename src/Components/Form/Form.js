@@ -7,10 +7,11 @@ export default class Form extends React.Component {
         return (
             <div>Form
                 <input></input>
-            <input type="text" value={this.state.value} onChange={this.handleChange}>Cancel</input>
-            <input type="text" value={this.state.value} onChange={this.handleChange}>Add to Inventory</input>
+            <input onChange={this.handleChange}>Add to Inventory</input>
+            <input onClick={this.handleChange}>Cancel</input>
             </div> 
             
         )
     }
 }
+

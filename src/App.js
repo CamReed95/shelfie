@@ -10,7 +10,10 @@ class App extends React.Component {
   constructor() {
     super()
     this.state = {
-      addToInventory: []
+      addToInventory: [],
+      name: 'Apple',
+      price: $1,
+      img_url: null
     }
     
   
