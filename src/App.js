@@ -7,7 +7,16 @@ import Header from './Components/Header/Header';
 import Product from './Components/Product/Product';
 
 class App extends React.Component {
+  constructor() {
+    super()
+    this.state = {
+      addToInventory: []
+    }
+    
+  
+  }
 
+  onChange
 
   render() {
     return (
@@ -17,7 +26,10 @@ class App extends React.Component {
         </div>
         <div className='Form'>Form</div>
         <div className='Header'>Header</div>
-        
+
+       
+        <button>Cancel</button>
+        <button>Add to Inventory</button>
       </div>
     );
   }

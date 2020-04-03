@@ -1,8 +1,12 @@
 CREATE TABLE products (
-    columnname TEXT,
-    datatype TEXT,
-    constraints TEXT
+    SERIAL PRIMARY KEY
+    id TEXT,
+    name TEXT,
+    price INTEGER,
+    img TEXT
 );
 
-INSERT INTO random (name)
+INSERT INTO products (name)
 VALUES ('John');
+
+SELECT * FROM products

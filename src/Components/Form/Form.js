@@ -5,7 +5,12 @@ export default class Form extends React.Component {
 
     render() {
         return (
-            <div>Form</div>
+            <div>Form
+                <input></input>
+            <input></input>
+            <input></input>
+            </div> 
+            
         )
     }
 }

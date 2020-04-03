@@ -20,4 +20,4 @@ app.use(express.json())
 
 const port = 3001
 
-app.listen(port, () => console.log(`listening on port ${port}`))
+app.listen(SERVER_PORT, () => console.log(`listening on port ${SERVER_PORT}`))
