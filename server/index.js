@@ -5,6 +5,8 @@ require('dotenv').config();
 
 const app = express()
 
+const { SERVER_PORT, CONNECTION_STRING} = process.env;
+
 massive({
     connectionString: {connectionString: CONNECTION_STRING}, ssl: {rejectUnauthorized: false}
 
