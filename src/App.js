@@ -19,7 +19,9 @@ class App extends React.Component {
   
   }
 
-  onChange
+  componentDidMount() {
+    
+  }
 
   render() {
     return (
